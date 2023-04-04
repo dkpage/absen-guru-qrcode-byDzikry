@@ -122,3 +122,30 @@ canvas {
 .tb-aksi button, .tb-aksi a{
     width: 100%;
 }
+
+#tbSecon {
+    height: 100px;
+    transition: all 0.2s linear;
+    overflow: hidden;
+}
+
+#tbSecon.tutup{
+    height: 0;
+}
+
+#tbLogin{
+    transition: all 0.2s linear;
+}
+
+#tbLogin.tutup{
+    opacity: 0;
+    /* height: 0; */
+}
+
+.fa-angle-down{
+    transition: all 0.2s linear;
+}
+
+.fa-angle-down.rtt{
+    rotate: 180deg;
+}
