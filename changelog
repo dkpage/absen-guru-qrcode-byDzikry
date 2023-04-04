@@ -1,0 +1,12 @@
+[ 5/9/2022 ]
+-- Aplikasi Diluncurkan dan digunakan
+
+[ 25/20/2022 ]
+-- Ditambahkan fitur isi absen manual pada tanggal yang sudah terlewati (hanya untuk boleh di akses admin dengan direct link)
+
+[ 7/11/2022 ]
+-- ditambahkan fitur untuk status isi absen secara reguler dan invaler
+
+[ 10/1/2023 ]
+-- UI/UX halaman absen di ubah menjadi hanya bisa digunakan dengan perangkat mobile
+-- penambahan fitur GPS location supaya absen hanya dapat dilakukan di area sekolah

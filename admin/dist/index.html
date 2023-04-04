@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akses Ditolak!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            align-items: center;
+            justify-content: center;
+            font-family: "Noto Sans", sans-serif;
+            color: var(--blue);
+            padding: 20px;
+
+        }
+
+        .container {
+            display: absolute;
+            margin-top: 200px;
+            margin-left: 300px;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        @media screen and (max-width:768px) {
+            body {
+                display: block;
+            }
+
+            .container {
+                margin-top: 70px;
+                margin-bottom: 70px;
+                margin-left: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>404</h1>
+        <h2>Halaman tidak ditemukan..</h2>
+        <p>Mohon maaf halaman yang anda cari tidak ada atau sudah dihapus, <br>
+            Anda akan diarahkan ke halaman utama setelah 5 detik.
+        </p>
+
+    </div>
+    <script>
+        const timeout = setTimeout(selesai, 5000);
+
+        function selesai() {
+            location.replace('../index');
+        }
+    </script>
+</body>
+
+</html>

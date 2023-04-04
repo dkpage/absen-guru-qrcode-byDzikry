@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.background1{
+    height: 390px;
+    
+}
+
+.konten{
+    background-color: #fff;
+    margin-top: -360px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 550px;
+}
+
+.heading{
+    margin: 10px;
+    
+}
+.judul {
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    
+    
+}
+.judul2 {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+}
+.judul3{
+    font-size: 18pt;
+}
+
+.btn-main button, .btn-main a{
+    width: 300px;
+}
+
+.btn1{
+    width: 200px;
+}
+
+.tb{
+    align-items: center;
+}
+
+.tb1{
+    
+    display: inline-block; 
+    row-gap: 2px;
+    margin: 5px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    background-color: #0F2C67;
+    padding: 14px 40px;
+    border: 2px solid #0F2C67;
+    border-color: #0F2C67;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    
+}
+
+.tb1:hover {
+    background-color: white; 
+    color: #0F2C67;
+    
+  }
+
+  .copyright{
+      font-size: 7pt;
+  }
+
+#kamera{
+    border: #333333;
+    border: solid;
+    border-width: 1px;
+    background-color: #c4c4c4;
+    height: 450px;
+}
+canvas {
+    width: 100%;
+    height: 100%;
+
+}
+
+#output {
+    display: none;
+}
+
+#loadingMessage {
+    margin-top: 100px;
+}
+
+
+.loading5{
+    height:350px;
+}
+
+.scanqr{
+    margin: 0;
+}
+
+.judul-kiri{
+    text-align: left;
+}
+
+.tbresult{
+    width: 200px;
+}
+
+.tb-aksi button, .tb-aksi a{
+    width: 100%;
+}
